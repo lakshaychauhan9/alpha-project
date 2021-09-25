@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #ffdde1;
+  background: -webkit-radial-gradient(center, #ffdde1, #ee9ca7);
+  background: -moz-radial-gradient(center, #ffdde1, #ee9ca7);
+  background: radial-gradient(ellipse at center, #ffdde1, #ee9ca7);
+  font-family: "Yaldevi", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

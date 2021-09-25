@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi&display=swap");
+
+.app {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Yaldevi", sans-serif;
+}
