@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+}
+
+.header__logo {
+  object-fit: contain;
+  width: 28px;
+  margin-left: 10px;
+}
+
+.header__right {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header__checkBox {
+  display: flex;
+  align-items: center;
+}
+
+.header__checkBox > p {
+  font-size: 14px;
+}

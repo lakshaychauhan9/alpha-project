@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+  position: sticky;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.footer > h2 {
+  font-size: 14px;
+}
+
+.footer > a,
+.footer__icons > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer__icons > a:hover,
+.footer > a:hover {
+  color: white;
+  cursor: pointer;
+}

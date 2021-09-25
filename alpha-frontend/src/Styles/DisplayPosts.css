@@ -1,0 +1,24 @@
+.display__header {
+  display: flex;
+  justify-content: center;
+}
+
+.display__header--Button {
+  background-color: black !important;
+}
+
+.display__header--Button:hover {
+  background-color: #2b2b2b !important;
+}
+
+.display__posts {
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-top: 15px;
+}
+
+.display__posts::-webkit-scrollbar {
+  scroll-behavior: smooth;
+}
